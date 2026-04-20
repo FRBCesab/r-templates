@@ -1,0 +1,25 @@
+# macOS files ----
+.DS_Store
+
+# Windows files ----
+[Dd]esktop.ini
+
+# History files ----
+.Rhistory
+.Rapp.history
+
+# Session data files ----
+.RData
+.RDataTmp
+.Ruserdata
+
+# RStudio files ----
+*.Rproj
+.Rproj.user/
+
+# R Environment variables ----
+.Renviron
+
+# User-specific files ----
+README.html
+inst/doc
