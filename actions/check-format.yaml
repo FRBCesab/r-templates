@@ -1,0 +1,23 @@
+# Workflow derived from https://github.com/posit-dev/setup-air/tree/main/examples
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+name: Check Air format
+
+permissions: read-all
+
+jobs:
+  format-check:
+    name: format-check
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Install Air
+        uses: posit-dev/setup-air@v1
+
+      - name: Check format
+        run: air format . --check
