@@ -1,0 +1,23 @@
+# macOS files ----
+.DS_Store
+
+# Windows files ----
+[Dd]esktop.ini
+
+# Large files ----
+.git
+renv/library
+renv/local
+
+# History files ----
+.Rhistory
+.Rapp.history
+
+# Session data files ----
+.RData
+.RDataTmp
+.Ruserdata
+
+# RStudio files ----
+*.Rproj
+.Rproj.user/
