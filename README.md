@@ -14,6 +14,7 @@ You can use these templates without using `rcompendium`, but remember to adapt t
 This repository is structured as follow:
 
 - [`actions/`](https://github.com/FRBCesab/r-templates/tree/main/actions): contains configuration files for [GitHub Actions](https://docs.github.com/en/actions) relevant to R projects
+- [`air/`](https://github.com/FRBCesab/r-templates/tree/main/ir): contains configuration files for [Air](https://posit-dev.github.io/air/), a formatter and language server for R code
 - [`contributing/`](https://github.com/FRBCesab/r-templates/tree/main/contributing): contains markdown files providing guidelines to contribute to the project and a code of conduct
 - [`docker/`](https://github.com/FRBCesab/r-templates/tree/main/docker): contains a generic `Dockerfile` (and a `.dockerignore`) for basic R projects
 - [`git/`](https://github.com/FRBCesab/r-templates/tree/main/docker): contains a generic `.gitignore` for R projects
