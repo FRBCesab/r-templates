@@ -54,24 +54,21 @@ The main purpose of `{{project_name}}` is to... **{{ DESCRIBE THE MAIN FEATURES 
 
 ## Installation
 
-You can install the development version from [GitHub](https://github.com/) with:
+You can install the development version from [GitHub](https://github.com/{{github}}/{{project_name}}):
 
-```{r eval=FALSE}
-## Install < remotes > package (if not already installed) ----
-if (!requireNamespace("remotes", quietly = TRUE)) {
-  install.packages("remotes")
-}
+- Using [`remotes`](https://remotes.r-lib.org/):
 
-## Install < {{project_name}} > from GitHub ----
+```{r eval = FALSE}
+## install.packages("remotes")
 remotes::install_github("{{github}}/{{project_name}}")
 ```
 
-Then you can attach the package `{{project_name}}`:
+- Or using [`pak`](https://pak.r-lib.org/):
 
-```{r eval=FALSE}
-library("{{project_name}}")
+```{r eval = FALSE}
+## install.packages("pak")
+pak::pak("{{github}}/{{project_name}}")
 ```
-
 
 
 ## Get started
