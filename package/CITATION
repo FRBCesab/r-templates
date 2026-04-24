@@ -5,6 +5,6 @@ bibentry(
   title   = "{{project_name}}: {An} {R} package to ...",
   author  = c(person("{{family}} {{given}}")),
   year    = "{{year}}",
-  note    = "R package version {{pkg_version}}",
+  note    = "R package version 0.0.0.9000",
   url     = "https://github.com/{{github}}/{{project_name}}"
 )
