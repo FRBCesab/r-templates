@@ -54,7 +54,7 @@ The main purpose of `{{project_name}}` is to... **{{ DESCRIBE THE MAIN FEATURES 
 
 ## Installation
 
-You can install the development version from [GitHub](https://github.com/{{github}}/{{project_name}}):
+You can install the development version from [GitHub](https://github.com/{{github_account}}/{{project_name}}):
 
 - Using [`remotes`](https://remotes.r-lib.org/):
 
@@ -73,7 +73,7 @@ pak::pak("{{github}}/{{project_name}}")
 
 ## Get started
 
-For an overview of the main features of `{{project_name}}`, please read the [Get started](https://{{github}}.github.io/{{project_name}}/articles/{{project_name}}.html) vignette.
+For an overview of the main features of `{{project_name}}`, please read the [Get started](https://{{github_account}}.github.io/{{project_name}}/articles/{{project_name}}.html) vignette.
 
 
 
@@ -81,14 +81,14 @@ For an overview of the main features of `{{project_name}}`, please read the [Get
 
 `{{project_name}}` provides **{{ NUMBER OF VIGNETTES }}** vignettes to learn more about the package:
 
-- the [Get started](https://{{github}}.github.io/{{project_name}}/articles/{{project_name}}.html) vignette describes the core features of the package
+- the [Get started](https://{{github_account}}.github.io/{{project_name}}/articles/{{project_name}}.html) vignette describes the core features of the package
 - **{{ LIST ADDITIONAL VIGNETTES }}**
 
 
 
 ## License
 
-The package `{{project_name}}` is released under the {{license}} license.
+The package `{{project_name}}` is released under the [{{license}}]({{license_url}}) license.
 
 
 
@@ -96,13 +96,13 @@ The package `{{project_name}}` is released under the {{license}} license.
 
 Please cite `{{project_name}}` as: 
 
-> {{family}} {{given}} (`r format(Sys.Date(), "%Y")`) {{project_name}}: An R package to **{{ TITLE }}**. R package version {{pkg_version}}. <https://github.com/{{github}}/{{project_name}}/>
+> {{family}} {{given}} (`r format(Sys.Date(), "%Y")`) {{project_name}}: An R package to **{{ TITLE }}**. R package version {{project_version}}. <https://github.com/{{github_account}}/{{project_name}}/>
 
 
 
 ## Contributing
 
-All types of contributions are encouraged and valued. For more information, check out our [Contributor Guidelines](https://github.com/{{github}}/{{project_name}}/blob/main/CONTRIBUTING.md).
+All types of contributions are encouraged and valued. For more information, check out our [Contributor Guidelines](https://github.com/{{github_account}}/{{project_name}}/blob/main/CONTRIBUTING.md).
 
 Please note that the `{{project_name}}` project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
 
