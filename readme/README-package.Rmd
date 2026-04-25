@@ -60,14 +60,14 @@ You can install the development version from [GitHub](https://github.com/{{githu
 
 ```{r eval = FALSE}
 ## install.packages("remotes")
-remotes::install_github("{{github}}/{{project_name}}")
+remotes::install_github("{{github_account}}/{{project_name}}")
 ```
 
 - Or using [`pak`](https://pak.r-lib.org/):
 
 ```{r eval = FALSE}
 ## install.packages("pak")
-pak::pak("{{github}}/{{project_name}}")
+pak::pak("{{github_account}}/{{project_name}}")
 ```
 
 

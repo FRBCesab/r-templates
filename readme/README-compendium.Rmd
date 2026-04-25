@@ -70,13 +70,13 @@ The analysis pipeline follows these steps:
 
 This repository is structured as follow:
 
-- [`DESCRIPTION`](https://github.com/{{github}}/{{project_name}}/tree/{{branch}}/DESCRIPTION):
+- [`DESCRIPTION`](https://github.com/{{github_account}}/{{project_name}}/tree/{{git_branch}}/DESCRIPTION):
 contains project metadata (authors, date, dependencies, etc.)
 
-- [`make.R`](https://github.com/{{github}}/{{project_name}}/tree/{{branch}}/make.R):
+- [`make.R`](https://github.com/{{github_account}}/{{project_name}}/tree/{{git_branch}}/make.R):
 main R script to run the entire project
 
-- [`R/`](https://github.com/{{github}}/{{project_name}}/tree/{{branch}}/R):
+- [`R/`](https://github.com/{{github_account}}/{{project_name}}/tree/{{git_branch}}/R):
 contains R functions developed especially for this project
 
 **{{ LIST ADDITIONAL FILES/FOLDER }}**
@@ -94,7 +94,7 @@ To install this compendium:
 
 ## Usage
 
-Launch the [`make.R`](https://github.com/{{github}}/{{project_name}}/tree/{{branch}}/make.R) file with:
+Launch the [`make.R`](https://github.com/{{github_account}}/{{project_name}}/tree/{{git_branch}}/make.R) file with:
 
 ```{r eval=FALSE}
 source("make.R")
@@ -110,7 +110,7 @@ source("make.R")
 
 ## License
 
-The package `{{project_name}}` is released under the {{license}} license.
+The package `{{project_name}}` is released under the [{{license}}]({{license_url}}) license.
 
 
 
@@ -124,7 +124,7 @@ Please use the following citation:
 
 ## Contributing
 
-All types of contributions are encouraged and valued. For more information, check out our [Contributor Guidelines](https://github.com/{{github}}/{{project_name}}/blob/main/CONTRIBUTING.md).
+All types of contributions are encouraged and valued. For more information, check out our [Contributor Guidelines](https://github.com/{{github_account}}/{{project_name}}/blob/main/CONTRIBUTING.md).
 
 Please note that this project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/1/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
 
